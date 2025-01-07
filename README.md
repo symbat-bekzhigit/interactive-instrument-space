@@ -6,7 +6,7 @@ In this project, we aimed to experiment with how our actions can influence a dig
 **Software used: TouchDesigner**
 
 ***
-![](screenshot.png)
+![](pic1.png)
 
 ## 1. Motion → Visual  
 We created two types of visuals that respond to human motion: a line interaction and a metaball interaction. 
@@ -15,6 +15,11 @@ We created two types of visuals that respond to human motion: a line interaction
 -	**Metaball Interaction:** The right hand was mapped to control a blue metaball, while the left hand controlled a white one. To synchronize the hand positions with the metaball movements, we utilized a Math CHOP to map the hand's vertical and horizontal positions to the corresponding coordinates of the metaballs.
 - **Line Interaction:** Using the Spring SOP, which mimics the way lines bounce back like a spring, we made lines that move in response to the metaball's actions. This setup is similar to how piano keys move when pressed by our hands.
 
+***
+![](pic2.png)
+
+***
+![](pic4.png)
 
 ## 2. Motion → Sound 
 We connected Ableton Live with TouchDesigner to allow real-time sound control based on the position of the metaballs. (Figure: TouchDesigner + Ableton screenshot). By moving the right and left metaballs with each hand, we can control different pitches and volumes.
@@ -30,6 +35,9 @@ We connected Ableton Live with TouchDesigner to allow real-time sound control ba
 
 ## 3. Sound → Visual 
 As the volume increases, the feedback effect of the metaball also gets stronger using audio math chop. This sound visualization serves as a visual guide, helping users intuitively understand the motion-sound interaction.
+
+***
+![](pic3.png)
 
 ***
 **Live Demo:** https://youtu.be/Jxv_4OxCO1M

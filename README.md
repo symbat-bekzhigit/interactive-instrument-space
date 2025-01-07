@@ -1,6 +1,11 @@
-# interactive-instrument-space
+# Interactive Instrument Space
+
 
 In this project, we aimed to experiment with how our actions can influence a digital space. Moving our hands, we created an interactive instrument to design sound in the digital space. According to the interaction map, three types of interactions were used: motion to visual, motion to sound, and sound to visual.
+Software used: TouchDesigner
+
+***
+![](screenshot.png)
 
 ## 1. Motion → Visual  
 We created two types of visuals that respond to human motion: a line interaction and a metaball interaction. 
@@ -14,11 +19,17 @@ We connected Ableton Live with TouchDesigner to allow real-time sound control ba
 a)	Pitch: The lines on the screen are mapped like piano keys, where the pitch increases as the metaball moves from left to right.
 b)	Volume: As the metaball moves from the bottom to the top of the screen, the volume increases accordingly. The size of the metaball (weight parameter) also gets larger
 
+***
+![](abletone_1.png)
+
+***
+![](abletone_2.png)
+
 ## 3. Sound → Visual 
 As the volume increases, the feedback effect of the metaball also gets stronger using audio math chop. This sound visualization serves as a visual guide, helping users intuitively understand the motion-sound interaction.
 
 
-2024 Fall ID412 Midterm / T6 
+2024 Fall ID412 Midterm 
 Symbat Bekzhigit (Motion to Visual)
 Jaeran Choi (Motion to Sound / Sound to Visual / Interaction Integration)
 

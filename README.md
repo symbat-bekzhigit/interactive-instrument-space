@@ -3,7 +3,7 @@
 
 In this project, we aimed to experiment with how our actions can influence a digital space. Moving our hands, we created an interactive instrument to design sound in the digital space. According to the interaction map, three types of interactions were used: motion to visual, motion to sound, and sound to visual.
 
-**Software used: TouchDesigner**
+**Software used: TouchDesigner, Ableton**
 
 ***
 ![](pic1.png)
